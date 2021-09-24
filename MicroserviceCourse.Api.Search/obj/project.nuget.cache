@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z7WnK4n2CngTsSLeki47eWO/K/76h1X0PZO3sU4ZoYKZ79PVHCO4jos6bA+nURTkVA0lIHbdjdrJCCbEgU2FMg==",
+  "dgSpecHash": "8vP/Jx8X4vgpwxAs4WIRlz2M0p7z5SryHqlEhVpPUSpyDg32ufEyn+BPeCdZTW2SrTSqtEfzbOAkIO6BVuycnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josuedbo\\source\\repos\\MicroserviceCourse\\MicroserviceCourse.Api.Search\\MicroserviceCourse.Api.Search.csproj",
+  "projectFilePath": "C:\\Users\\josuedbo\\source\\repos\\Export\\MicroserviceCourse\\MicroserviceCourse\\MicroserviceCourse.Api.Search\\MicroserviceCourse.Api.Search.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josuedbo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -23,6 +23,7 @@
     "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",

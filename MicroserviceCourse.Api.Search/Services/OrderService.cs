@@ -6,10 +6,11 @@ using System.Linq;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
+using MicroserviceCourse.Api.Search.Interfaces;
 
 namespace MicroserviceCourse.Api.Search.Services
 {
-    public class OrderService : Interfaces.IOrderService
+    public class OrderService : IOrderService
     {
         private readonly ILogger<OrderService> _logger;
             private readonly IHttpClientFactory _http;
@@ -23,7 +24,7 @@ namespace MicroserviceCourse.Api.Search.Services
             try
             {
                 var client = _http.CreateClient("OrderService");
-                var response = await client.GetAsync($"api/Orders/{customerId}");
+                var response = await client.GetAsync($"api/Order/user/{customerId}");
 
                 if (response.IsSuccessStatusCode)
                 {

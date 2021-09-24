@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josuedbo\\source\\repos\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\MicroserviceCourse.Api.Customers.csproj": {}
+    "C:\\Users\\josuedbo\\source\\repos\\Export\\MicroserviceCourse\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\MicroserviceCourse.Api.Customers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josuedbo\\source\\repos\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\MicroserviceCourse.Api.Customers.csproj": {
+    "C:\\Users\\josuedbo\\source\\repos\\Export\\MicroserviceCourse\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\MicroserviceCourse.Api.Customers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josuedbo\\source\\repos\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\MicroserviceCourse.Api.Customers.csproj",
+        "projectUniqueName": "C:\\Users\\josuedbo\\source\\repos\\Export\\MicroserviceCourse\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\MicroserviceCourse.Api.Customers.csproj",
         "projectName": "MicroserviceCourse.Api.Customers",
-        "projectPath": "C:\\Users\\josuedbo\\source\\repos\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\MicroserviceCourse.Api.Customers.csproj",
+        "projectPath": "C:\\Users\\josuedbo\\source\\repos\\Export\\MicroserviceCourse\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\MicroserviceCourse.Api.Customers.csproj",
         "packagesPath": "C:\\Users\\josuedbo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josuedbo\\source\\repos\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\obj\\",
+        "outputPath": "C:\\Users\\josuedbo\\source\\repos\\Export\\MicroserviceCourse\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josuedbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

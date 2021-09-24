@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C5LKgGzxE1vTF2E8W5HNGlpqTm0QO7BKVL5nyoqcfdAQsHYcLHEVxEZVKu9yiOgZVFWQ/R219t5MyMDptZRmbg==",
+  "dgSpecHash": "eq+DCMYo71mKJB/XKelnI1qdJkcsWM3hDbVsm+wiTUVXnGwynPFV308s2bE3JEfhzUv10lMFgpV9q53g5aYfqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josuedbo\\source\\repos\\MicroserviceCourse\\Microservices.Api.Products.Test\\Microservices.Api.Products.Test.csproj",
+  "projectFilePath": "C:\\Users\\josuedbo\\source\\repos\\Export\\MicroserviceCourse\\MicroserviceCourse\\Microservices.Api.Products.Test\\Microservices.Api.Products.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josuedbo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -28,6 +28,7 @@
     "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.9.4\\microsoft.testplatform.objectmodel.16.9.4.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.testplatform.testhost\\16.9.4\\microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
+    "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",

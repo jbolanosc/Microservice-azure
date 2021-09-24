@@ -17,7 +17,9 @@ namespace MicroserviceCourse.Api.Orders.Controllers
         {
             _provider = provider;
         }
-        [HttpGet("/{userId}")]
+
+
+        [HttpGet("user/{userId}")]
         public async Task<IActionResult> GetOrdersAsync(int userId)
         {
             var result = await _provider.GetOrdersAsync(userId);

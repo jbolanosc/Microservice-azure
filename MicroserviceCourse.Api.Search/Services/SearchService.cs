@@ -11,8 +11,8 @@ namespace MicroserviceCourse.Api.Search.Services {
     {
         private readonly IOrderService _service;
         private readonly IProductService _productService;
-        private readonly ICustumerService _customerService;
-        public SearchService(IOrderService service, IProductService productService, ICustumerService customerService)
+        private readonly ICustomerService _customerService;
+        public SearchService(IOrderService service, IProductService productService, ICustomerService customerService)
         {
             _service = service;
             _productService = productService;

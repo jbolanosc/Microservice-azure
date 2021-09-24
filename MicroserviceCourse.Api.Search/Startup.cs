@@ -32,19 +32,16 @@ namespace MicroserviceCourse.Api.Search
             services.AddScoped<ISearchService, SearchService>();
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IProductService, ProductService>();
-            services.AddScoped<ICustumerService, CustomerService>();
+            services.AddScoped<ICustomerService, CustomerService>();
             services.AddHttpClient("OrderService", config => {
                 config.BaseAddress = new Uri(Configuration["Services:Orders"]);
             });
             services.AddHttpClient("CustomerService", config => {
-                config.BaseAddress = new Uri(Configuration["Services:Customer"]);
+                config.BaseAddress = new Uri(Configuration["Services:Customers"]);
             });
-            services.AddHttpClient("ProductsService", config => {
-                config.BaseAddress = new Uri(Configuration["Services:Prducts"]);
+            services.AddHttpClient("ProductService", config => {
+                config.BaseAddress = new Uri(Configuration["Services:Products"]);
             }).AddTransientHttpErrorPolicy(p => p.WaitAndRetryAsync(5, _ => TimeSpan.FromMilliseconds(500)));
-            services.AddHttpClient("CustomerService", config => {
-                config.BaseAddress = new Uri(Configuration["Services:Customer"]);
-            });
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

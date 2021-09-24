@@ -26,7 +26,7 @@ namespace MicroserviceCourse.Api.Search.Controllers
 
             if (result.isSuccess)
             {
-                return result.searchResults;
+                return Ok(result.searchResults);
             }
 
             return NotFound();

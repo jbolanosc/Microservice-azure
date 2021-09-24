@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JHYv3i+IswloerlBCQzI1l497LeIvxPDbMlxTS4cfXQjQblw9fTfjn6auXTgqWHgeup6CT7Ubt6vcrDcNCRxag==",
+  "dgSpecHash": "rkj0EuQdDN5Hicgu77Fu532FD2pjyR4NVz4RLCLdahZw1mmVuqHDWT0Q599gUHld8otegPGMGms/r0p4pflGuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josuedbo\\source\\repos\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\MicroserviceCourse.Api.Customers.csproj",
+  "projectFilePath": "C:\\Users\\josuedbo\\source\\repos\\Export\\MicroserviceCourse\\MicroserviceCourse\\MicroserviceCourse.Api.Customers\\MicroserviceCourse.Api.Customers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josuedbo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -21,6 +21,7 @@
     "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\josuedbo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\josuedbo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",

@@ -9,12 +9,12 @@ using Microsoft.Extensions.Logging;
 
 namespace MicroserviceCourse.Api.Search.Services
 {
-    public class CustomerService : ICustumerService
+    public class CustomerService : ICustomerService
     {
         private readonly IHttpClientFactory _http;
-        private readonly ILogger _logger;
+        private readonly ILogger<ICustomerService> _logger;
 
-        public CustomerService(IHttpClientFactory http, ILogger logger)
+        public CustomerService(IHttpClientFactory http, ILogger<ICustomerService> logger)
         {
             _http = http;
             _logger = logger;
@@ -24,7 +24,7 @@ namespace MicroserviceCourse.Api.Search.Services
             try
             {
                 var client = _http.CreateClient("CustomerService");
-                var response = await client.GetAsync($"api/customer/{id}");
+                var response = await client.GetAsync($"api/Customer/{id}");
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -42,11 +42,6 @@ namespace MicroserviceCourse.Api.Search.Services
                 _logger?.LogError(ex.ToString());
                 return (false, null, ex.Message);
             }
-        }
-
-        private object JsonSerializerOptions()
-        {
-            throw new NotImplementedException();
         }
     }
 }
